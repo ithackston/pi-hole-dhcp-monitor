@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Whitelist{% endblock %}</h1>
+  <a class="action" href="{{ url_for('admin.add') }}">Add</a>
+{% endblock %}
+
+{% block content %}
+  <table>
+    <thead>
+      <tr>
+        <th>MAC Address</th>
+        <th>Added On</th>
+        <th>Memo</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for entry in allowed %}
+      <tr>
+        <td><a class="action" href="{{ url_for('admin.update', id=entry['id']) }}">{{ entry['mac_address'] }}</a></td>
+        <td>{{ entry['created'].strftime('%Y-%m-%d %H:%M:%S') }}</td>
+        <td>{{ entry['memo'] }}</td>
+      </tr>
+    {% endfor %}
+    </tbody}
+  </table>
+{% endblock %}

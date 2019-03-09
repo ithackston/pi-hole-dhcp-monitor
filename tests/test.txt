@@ -1,0 +1,93 @@
+Mar  8 13:56:54 dnsmasq[533]: 13 127.0.0.1/41916 query[AAAA] api.github.com from 127.0.0.1
+Mar  8 13:56:54 dnsmasq[533]: 13 127.0.0.1/41916 cached api.github.com is NODATA-IPv6
+Mar  8 13:59:00 dnsmasq[533]: 14 127.0.0.1/55938 query[PTR] 1.20.10.10.in-addr.arpa from 127.0.0.1
+Mar  8 13:59:00 dnsmasq[533]: 14 127.0.0.1/55938 cached 10.10.20.1 is NXDOMAIN
+Mar  8 14:10:19 dnsmasq[533]: exiting on receipt of SIGTERM
+Mar  8 14:10:19 dnsmasq[1184]: started, version 2.76 cachesize 10000
+Mar  8 14:10:19 dnsmasq[1184]: compile time options: IPv6 GNU-getopt DBus i18n IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC loop-detect inotify
+Mar  8 14:10:19 dnsmasq[1184]: warning: ignoring resolv-file flag because no-resolv is set
+Mar  8 14:10:19 dnsmasq-dhcp[1184]: DHCP, IP range 10.10.20.100 -- 10.10.20.251, lease time 1d
+Mar  8 14:10:19 dnsmasq[1184]: using nameserver 1.0.0.1#53
+Mar  8 14:10:19 dnsmasq[1184]: using nameserver 1.1.1.1#53
+Mar  8 14:10:19 dnsmasq[1184]: read /etc/hosts - 5 addresses
+Mar  8 14:10:19 dnsmasq[1184]: read /etc/pihole/local.list - 2 addresses
+Mar  8 14:10:19 dnsmasq[1184]: read /etc/pihole/black.list - 0 addresses
+Mar  8 14:10:22 dnsmasq[1184]: bad name at /etc/pihole/gravity.list line 100355
+Mar  8 14:10:33 dnsmasq[1184]: bad name at /etc/pihole/gravity.list line 585957
+Mar  8 14:10:36 dnsmasq[1184]: read /etc/pihole/gravity.list - 714642 addresses
+Mar  8 14:10:39 dnsmasq-dhcp[1184]: DHCPREQUEST(eth0) 10.10.20.125 f8:6f:c1:44:49:f0
+Mar  8 14:10:40 dnsmasq-dhcp[1184]: DHCPACK(eth0) 10.10.20.125 f8:6f:c1:44:49:f0 IanRsAppleWatch
+Mar  8 14:10:40 dnsmasq-dhcp[1184]: DHCPREQUEST(eth0) 10.10.20.125 f8:6f:c1:44:49:f0
+Mar  8 14:10:40 dnsmasq-dhcp[1184]: DHCPACK(eth0) 10.10.20.125 f8:6f:c1:44:49:f0 IanRsAppleWatch
+Mar  8 14:10:55 dnsmasq-dhcp[1184]: DHCPREQUEST(eth0) 10.10.20.125 f8:6f:c1:44:49:f0
+Mar  8 14:10:55 dnsmasq-dhcp[1184]: DHCPACK(eth0) 10.10.20.125 f8:6f:c1:44:49:f0 IanRsAppleWatch
+Mar  8 14:10:55 dnsmasq-dhcp[1184]: DHCPREQUEST(eth0) 10.10.20.125 f8:6f:c1:44:49:f0
+Mar  8 14:10:55 dnsmasq-dhcp[1184]: DHCPACK(eth0) 10.10.20.125 f8:6f:c1:44:49:f0 IanRsAppleWatch
+Mar  8 14:10:57 dnsmasq[1184]: 1 10.10.20.125/59266 query[A] apple.com from 10.10.20.125
+Mar  8 14:10:57 dnsmasq[1184]: 1 10.10.20.125/59266 forwarded apple.com to 1.0.0.1
+Mar  8 14:10:57 dnsmasq[1184]: 1 10.10.20.125/59266 forwarded apple.com to 1.1.1.1
+Mar  8 14:10:57 dnsmasq[1184]: 1 10.10.20.125/59266 reply apple.com is 17.172.224.47
+Mar  8 14:10:57 dnsmasq[1184]: 1 10.10.20.125/59266 reply apple.com is 17.178.96.59
+Mar  8 14:10:57 dnsmasq[1184]: 1 10.10.20.125/59266 reply apple.com is 17.142.160.59
+Mar  8 14:10:57 dnsmasq[1184]: 2 127.0.0.1/39391 query[PTR] 125.20.10.10.in-addr.arpa from 127.0.0.1
+Mar  8 14:10:57 dnsmasq[1184]: 2 127.0.0.1/39391 DHCP 10.10.20.125 is IanRsAppleWatch.lan
+Mar  8 14:11:00 dnsmasq-dhcp[1184]: DHCPDISCOVER(eth0) f0:18:98:a7:e0:d6
+Mar  8 14:11:00 dnsmasq-dhcp[1184]: DHCPOFFER(eth0) 10.10.20.138 f0:18:98:a7:e0:d6
+Mar  8 14:11:00 dnsmasq-dhcp[1184]: DHCPDISCOVER(eth0) f0:18:98:a7:e0:d6
+Mar  8 14:11:00 dnsmasq-dhcp[1184]: DHCPOFFER(eth0) 10.10.20.138 f0:18:98:a7:e0:d6
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPDISCOVER(eth0) 50:c7:bf:28:38:30
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPOFFER(eth0) 10.10.20.149 50:c7:bf:28:38:30
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPDISCOVER(eth0) 50:c7:bf:28:38:30
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPOFFER(eth0) 10.10.20.149 50:c7:bf:28:38:30
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPDISCOVER(eth0) f0:18:98:a7:e0:d6
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPOFFER(eth0) 10.10.20.138 f0:18:98:a7:e0:d6
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPDISCOVER(eth0) f0:18:98:a7:e0:d6
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPOFFER(eth0) 10.10.20.138 f0:18:98:a7:e0:d6
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPDISCOVER(eth0) 50:c7:bf:28:38:30
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPOFFER(eth0) 10.10.20.149 50:c7:bf:28:38:30
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPDISCOVER(eth0) 50:c7:bf:28:38:30
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPOFFER(eth0) 10.10.20.149 50:c7:bf:28:38:30
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPREQUEST(eth0) 10.10.20.138 f0:18:98:a7:e0:d6
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPACK(eth0) 10.10.20.138 f0:18:98:a7:e0:d6 Ians-MBP
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPREQUEST(eth0) 10.10.20.138 f0:18:98:a7:e0:d6
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPACK(eth0) 10.10.20.138 f0:18:98:a7:e0:d6 Ians-MBP
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPREQUEST(eth0) 10.10.20.138 f0:18:98:a7:e0:d6
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPACK(eth0) 10.10.20.138 f0:18:98:a7:e0:d6 Ians-MBP
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPREQUEST(eth0) 10.10.20.138 f0:18:98:a7:e0:d6
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPACK(eth0) 10.10.20.138 f0:18:98:a7:e0:d6 Ians-MBP
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPDISCOVER(eth0) 50:c7:bf:28:38:30
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPOFFER(eth0) 10.10.20.149 50:c7:bf:28:38:30
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPDISCOVER(eth0) 50:c7:bf:28:38:30
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPOFFER(eth0) 10.10.20.149 50:c7:bf:28:38:30
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPREQUEST(eth0) 10.10.20.149 50:c7:bf:28:38:30
+Mar  8 14:11:03 dnsmasq-dhcp[1184]: DHCPACK(eth0) 10.10.20.149 50:c7:bf:28:38:30 HS200
+Mar  8 14:11:04 dnsmasq-dhcp[1184]: DHCPREQUEST(eth0) 10.10.20.149 50:c7:bf:28:38:30
+Mar  8 14:11:04 dnsmasq-dhcp[1184]: DHCPACK(eth0) 10.10.20.149 50:c7:bf:28:38:30 HS200
+Mar  8 14:11:05 dnsmasq[1184]: 3 10.10.20.138/50394 query[A] captive.apple.com from 10.10.20.138
+Mar  8 14:11:05 dnsmasq[1184]: 3 10.10.20.138/50394 forwarded captive.apple.com to 1.0.0.1
+Mar  8 14:11:05 dnsmasq[1184]: 3 10.10.20.138/50394 reply captive.apple.com is <CNAME>
+Mar  8 14:11:05 dnsmasq[1184]: 3 10.10.20.138/50394 reply captive-cidr.origin-apple.com.akadns.net is <CNAME>
+Mar  8 14:11:05 dnsmasq[1184]: 3 10.10.20.138/50394 reply captive-cdn.origin-apple.com.akadns.net is <CNAME>
+Mar  8 14:11:05 dnsmasq[1184]: 3 10.10.20.138/50394 reply captive.g.aaplimg.com is 17.253.17.211
+Mar  8 14:11:05 dnsmasq[1184]: 3 10.10.20.138/50394 reply captive.g.aaplimg.com is 17.253.5.201
+Mar  8 14:11:05 dnsmasq[1184]: 4 10.10.20.138/53082 query[PTR] b._dns-sd._udp.0.20.10.10.in-addr.arpa from 10.10.20.138
+Mar  8 14:11:05 dnsmasq[1184]: 4 10.10.20.138/53082 forwarded b._dns-sd._udp.0.20.10.10.in-addr.arpa to 1.0.0.1
+Mar  8 14:11:05 dnsmasq[1184]: 5 10.10.20.138/54295 query[PTR] db._dns-sd._udp.0.20.10.10.in-addr.arpa from 10.10.20.138
+Mar  8 14:11:05 dnsmasq[1184]: 5 10.10.20.138/54295 forwarded db._dns-sd._udp.0.20.10.10.in-addr.arpa to 1.0.0.1
+Mar  8 14:11:05 dnsmasq[1184]: 6 10.10.20.138/50223 query[PTR] lb._dns-sd._udp.0.20.10.10.in-addr.arpa from 10.10.20.138
+Mar  8 14:11:05 dnsmasq[1184]: 6 10.10.20.138/50223 forwarded lb._dns-sd._udp.0.20.10.10.in-addr.arpa to 1.0.0.1
+Mar  8 14:11:05 dnsmasq[1184]: 7 10.10.20.138/60123 query[PTR] lb._dns-sd._udp.lan from 10.10.20.138
+Mar  8 14:11:05 dnsmasq[1184]: 7 10.10.20.138/60123 forwarded lb._dns-sd._udp.lan to 1.0.0.1
+Mar  8 14:11:05 dnsmasq[1184]: 8 10.10.20.138/50685 query[PTR] b._dns-sd._udp.lan from 10.10.20.138
+Mar  8 14:11:05 dnsmasq[1184]: 8 10.10.20.138/50685 forwarded b._dns-sd._udp.lan to 1.0.0.1
+Mar  8 14:11:05 dnsmasq[1184]: 9 10.10.20.138/56912 query[PTR] db._dns-sd._udp.lan from 10.10.20.138
+Mar  8 14:11:05 dnsmasq[1184]: 9 10.10.20.138/56912 forwarded db._dns-sd._udp.lan to 1.0.0.1
+Mar  8 14:11:05 dnsmasq[1184]: 10 10.10.20.138/54822 query[PTR] 138.20.10.10.in-addr.arpa from 10.10.20.138
+Mar  8 14:11:05 dnsmasq[1184]: 10 10.10.20.138/54822 DHCP 10.10.20.138 is Ians-MBP.lan
+Mar  8 14:11:05 dnsmasq[1184]: 11 127.0.0.1/42729 query[PTR] 138.20.10.10.in-addr.arpa from 127.0.0.1
+Mar  8 14:11:05 dnsmasq[1184]: 11 127.0.0.1/42729 DHCP 10.10.20.138 is Ians-MBP.lan
+Mar  8 14:11:05 dnsmasq[1184]: 12 10.10.20.149/36981 query[A] devs.tplinkcloud.com from 10.10.20.149
+Mar  8 14:11:05 dnsmasq[1184]: 12 10.10.20.149/36981 forwarded devs.tplinkcloud.com to 1.0.0.1
+Mar  8 14:11:05 dnsmasq[1184]: 13 127.0.0.1/36704 query[PTR] 149.20.10.10.in-addr.arpa from 127.0.0.1
+Mar  8 14:11:05 dnsmasq[1184]: 13 127.0.0.1/36704 DHCP 10.10.20.149 is HS200.lan
+Mar  8 14:11:05 dnsmasq[1184]: 12 10.10.20.149/36981 reply devs.tplinkcloud.com is <CNAME>

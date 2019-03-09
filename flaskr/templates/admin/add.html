@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Add To Whitelist{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="post">
+    <label for="mac_address">MAC Address</label>
+    <input name="mac_address" id="mac_address" value="{{ request.form['mac_address'] }}" required>
+    <label for="memo">Memo</label>
+    <textarea name="memo" id="memo">{{ request.form['memo'] }}</textarea>
+    <input type="submit" value="Save">
+  </form>
+{% endblock %}

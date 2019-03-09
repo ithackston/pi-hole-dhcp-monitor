@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Edit {{ entry }}{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="post">
+    <label for="mac_address">MAC Address</label>
+    <input name="mac_address" id="mac_address" value="{{ request.form['mac_address'] or entry['mac_address'] }}" required>
+    <label for="memo">Memo</label>
+    <textarea name="memo" id="memo">{{ request.form['memo'] or entry['memo'] }}</textarea>
+    <input type="submit" value="Save">
+  </form>
+  <hr>
+  <form action="{{ url_for('admin.delete', id=entry['id']) }}" method="post">
+    <input class="danger" type="submit" value="Delete" onclick="return confirm('Are you sure?');">
+  </form>
+{% endblock %}
